@@ -8,3 +8,14 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
+
+set number
+syntax on
+
+" solarized options 
+set background=dark
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+colorscheme solarized
+
+call pathogen#infect()

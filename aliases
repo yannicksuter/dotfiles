@@ -1,0 +1,31 @@
+alias ..='cd ..'
+alias ...='cd .. ; cd ..'
+alias ls='ls -G'
+alias ll='ls -hl'
+alias la='ls -a'
+alias lla='ls -lah'
+alias l='ll'
+ 
+alias home='cd ~'
+alias ehost='mate /etc/hosts'
+alias ehttp='mate /etc/apache2/httpd.conf'
+alias bashrc='mate ~/.bashrc'
+alias ebas='bashrc'
+ 
+alias tlf="tail -F"
+ 
+alias un='tar -zxvf'
+alias ping='ping -c 10'
+alias m='more'
+alias which='type -all'
+alias 644='chmod 644'
+alias 755='chmod 755'
+alias 777='chmod 777'
+alias path='echo -e ${PATH//:/\\n}'
+ 
+# Find aliases
+alias top='top -o cpu'
+alias g='grep -i' # Case insensitive grep
+alias f='find . -iname'
+alias pg='ps aux | grep'
+ 
