@@ -11,6 +11,7 @@ vim specific:
 - pathogen: https://github.com/tpope/vim-pathogen
 - airline
 - solarize theme: https://github.com/altercation/vim-colors-solarized
+- nerdtree: https://github.com/scrooloose/nerdtree
 
 known problems:
 - In iTerm2, in Preferences -> Profiles -> Terminal, under "Terminal Emulation" you have "Report Terminal Type:" set to xterm-256color.
