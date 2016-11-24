@@ -57,7 +57,7 @@ ui = auto
 	keepBackup = true
 
 [diff]
-external = git_diff_wrapper
+#external = git_diff_wrapper
 	tool = diffmerge
 
 # [merge]
