@@ -55,7 +55,8 @@ export PATH="/opt/local/bin:/opt/local/sbin:/Applications/activator-1.2.2-minima
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -81,3 +82,9 @@ export PATH="/opt/local/bin:/opt/local/sbin:/Applications/activator-1.2.2-minima
 
 alias gits='git status'### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/yannick/code/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/yannick/code/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/yannick/code/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/yannick/code/google-cloud-sdk/completion.zsh.inc'; fi
