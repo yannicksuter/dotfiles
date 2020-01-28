@@ -1,6 +1,7 @@
 [core]
 	editor = 
 excludesfile = /Users/yannick/.gitignore
+	autocrlf = input
 
 [user]
 	name = yannicksuter
