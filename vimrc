@@ -14,6 +14,7 @@ set autowrite     " Automatically :write before running commands
 filetype plugin on
 set number
 syntax on
+set conceallevel=2
 
 "Invisible character colors 
 highlight NonText guifg=#005f00
@@ -30,6 +31,16 @@ set background=dark
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
 colorscheme solarized
+
+" wimwiki
+let wiki_1 = {}
+let wiki_1.path = '~/notes/'
+let wiki_1.syntax = 'markdown'
+let wiki_1.ext = '.md'
+" let wiki_1.path_html = '~/vimwiki_html/'
+
+let g:vimwiki_list = [wiki_1]
+let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 
 "set guifont=Liberation_Mono_for_Powerline:h10
 let g:airline_powerline_fonts = 1
